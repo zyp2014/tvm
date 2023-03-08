@@ -1,7 +1,7 @@
 #!/bin/bash
 
-git submodule sync
-git submodule update --init
+git submodule init
+git submodule update
 
 mkdir build
 
